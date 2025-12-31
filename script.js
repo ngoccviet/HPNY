@@ -124,7 +124,7 @@ const store = {
 		// at render time, and parsing on change.
 		config: {
 			quality: String(IS_HIGH_END_DEVICE ? QUALITY_HIGH : QUALITY_NORMAL), // will be mirrored to a global variable named `quality` in `configDidUpdate`, for perf.
-			shell: 'Random',
+			shell: 'Crackle',
 			size: IS_DESKTOP
 				? '3' // Desktop default
 				: IS_HEADER 
